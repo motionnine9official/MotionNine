@@ -1,4 +1,4 @@
-const FACEBOOK_PAGE_URL = 'https://www.facebook.com/share/1Dumq9wFAj/stagram.com/motionnine9';
+const FACEBOOK_PAGE_URL = 'https://www.facebook.com/profile.php?viewas=100000686899395&id=61586718181486';
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
