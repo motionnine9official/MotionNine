@@ -4,16 +4,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
     const navLinksItems = document.querySelectorAll('.nav-links a');
-    const buyButtons = document.querySelectorAll('.btn-buy');
+    const buyButtons = document.querySelectorAll('.btn-buy'); 
     const contactForm = document.querySelector('.contact-form');
 
     menuToggle.addEventListener('click', function() {
         navLinks.classList.toggle('active');
-        menuToggle.classList.toggle('active');
-    });
+         menuToggle.classList.toggle('active');
+     });
 
     navLinksItems.forEach(link => {
-        link.addEventListener('click', function() {
+        link.addEventListener('click', function() { 
             navLinks.classList.remove('active');
             menuToggle.classList.remove('active');
         });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buyButtons.forEach(button => {
         button.addEventListener('click', function() {
             const productId = this.getAttribute('data-product');
-            window.open(FACEBOOK_PAGE_URL, '_blank');
+            window.open(FACEBOOK_PAGE_URL, '_blank'); 
         });
     });
 
