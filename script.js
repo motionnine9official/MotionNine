@@ -1,4 +1,4 @@
-const FACEBOOK_PAGE_URL = 'https://www.facebook.com/YOUR_PAGE_HERE';
+const FACEBOOK_PAGE_URL = 'https://www.facebook.com/share/1Dumq9wFAj/uj';
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
